@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    padding: 10px  0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+select{
+    text-align: center;
+    padding: 2px;
+}
+select:invalid {
+    color: gray;
+}
+option{
+    text-align: center;
+}
+input[type="text"]{
+    padding: 5px;
+}
+input[type="date"]{
+    height: 35px;
+}
+.borda{
+    border: 1px solid red;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul a:hover{
+    background-color: #e0e7ec;
+}
+ul a{
+    width:100%;
+    display: block;
+}
+#menu{
+    background-color: #F5FBFF;
+    width: 28%;
+    display: inline-block;
+    border: 1px solid #CFEBFF;
+    padding: 5px;
+}
+.container{
+    display: flex;
+}
+.legenda{
+    background-color: #E6E6E6;
+    padding: 5px;
+    border-radius: 7px;
+    display: inline-block;
+}
+#pesquisa{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+#pesquisa select{
+    width: 25%;
+}
+#pesquisa input{
+    width: 60%;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+}
+.botao button,.botao input,.botao a{
+    padding: 10px 70px;
+    font-weight: bold;
+}
+.conteudo{
+    width: 70%;
+}
+.th-renda{
+    background-color: #BDE3FF;
+}
+.td-renda{
+    background-color: #757575;
+    color: white;
+}
+.hidden {
+    display: none;
+}
